@@ -1,0 +1,28 @@
+<!-- login-modal.html -->
+<div id="authModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div class="auth-tabs">
+        <button id="loginTab" class="active">Log In</button>
+        <button id="signupTab">Sign Up</button>
+      </div>
+  
+      <!-- Login Form -->
+      <form id="loginForm" class="auth-form">
+        <h2>Log In to Pawfect Pals</h2>
+        <input type="email" id="loginEmail" placeholder="Email" required>
+        <input type="password" id="loginPassword" placeholder="Password" required>
+        <button type="submit" class="btn">Log In</button>
+      </form>
+  
+      <!-- Signup Form -->
+      <form id="signupForm" class="auth-form hidden">
+        <h2>Create Your Account</h2>
+        <input type="text" id="signupName" placeholder="Full Name" required>
+        <input type="email" id="signupEmail" placeholder="Email" required>
+        <input type="password" id="signupPassword" placeholder="Password" required>
+        <button type="submit" class="btn">Sign Up</button>
+      </form>
+    </div>
+  </div>
+  

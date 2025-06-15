@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adoption Process - Paws Haven</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+          <i class="fas fa-paw"></i>
+          <span class="logo-white">Pawfect</span><span class="logo-gray">Pals</span>
+          <p class="tagline">Bringing Tails & Smiles Together</p>
+        </div>
+        <button class="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#pets">Pets Available</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="store2.html#foodavailable">Store</a></li>
+            <li><a href="index.html#contact">Contact Us</a></li>
+            <li ><a href="#" id="hlogin" class="btn">Log in</a></li>
+          </ul>
+        </nav>
+      </header>
+    
+
+    <!-- Adoption Hero Section -->
+    <section class="adoption-hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Find Your Perfect Companion</h2>
+                <p>Begin your journey to pet parenthood with our simple adoption process</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Adoption Process Steps -->
+    <section class="process-steps">
+        <div class="container">
+            <h2 class="section-title">Our Adoption Process</h2>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <i class="fas fa-search"></i>
+                    <h3>Browse Pets</h3>
+                    <p>Explore our available animals online or visit our shelter</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <i class="fas fa-file-alt"></i>
+                    <h3>Submit Application</h3>
+                    <p>Complete our adoption questionnaire</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <i class="fas fa-handshake"></i>
+                    <h3>Meet & Greet</h3>
+                    <p>Schedule a visit with your potential pet</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">4</div>
+                    <i class="fas fa-home"></i>
+                    <h3>Finalize Adoption</h3>
+                    <p>Complete paperwork and bring your pet home</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Adoption Application -->
+    <section class="adoption-form" id="application">
+        <div class="container">
+            <h2 class="section-title">Adoption Application</h2>
+            <form class="application-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" required>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    
+                    <div class="form-group">
+                        <label for="pet">Pet Interested In</label>
+                        <input type="text" id="pet">
+                    </div>
+                    <div class="form-group">
+                        <label for="gender">Gender</label>
+                        <select id="gender" required>
+                            <option value="">Select</option>
+                            <option value="none">Male</option>
+                            <option value="some">Female</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="address">Full Address</label>
+                    <input type="text" id="address" required>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="housing">Housing Type</label>
+                        <select id="housing" required>
+                            <option value="">Select</option>
+                            <option value="house">House</option>
+                            <option value="apartment">Apartment</option>
+                            <option value="condo">Condo</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="experience">Pet Experience</label>
+                        <select id="experience" required>
+                            <option value="">Select</option>
+                            <option value="none">None</option>
+                            <option value="some">Some</option>
+                            <option value="experienced">Experienced</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="reason">Why do you want to adopt?</label>
+                    <textarea id="reason" rows="4" required></textarea>
+                </div>
+                
+                <div class="form-submit">
+                    <button type="submit" class="btn">Submit Application</button>
+                    <p class="disclaimer">We'll contact you within 48 hours to discuss next steps</p>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Meet & Greet Appointment Section -->
+    <section class="appointment-section" >
+        <div class="container">
+            <h2 class="section-title">Schedule Your Meet & Greet</h2>
+            <div class="appointment-intro">
+                <strong>Book your appointment now for Grooming Services, Veterinary Services and Boarding your pets</strong>
+                <p>Our staff will be available to answer your questions and help facilitate a positive introduction.</p>
+            </div>
+            <form class="appointment-form" id="appointment">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="appointment-name">Your Name</label>
+                        <input type="text" id="appointment-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="appointment-email">Email</label>
+                        <input type="email" id="appointment-email" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="appointment-date">Preferred Date</label>
+                        <input type="date" id="appointment-date" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="appointment-time">Preferred Time</label>
+                        <select id="appointment-time" required>
+                            <option value="">Select Time</option>
+                            <option value="morning">Morning (9am-12pm)</option>
+                            <option value="afternoon">Afternoon (1pm-5pm)</option>
+                            <option value="evening">Evening (6pm-8pm)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="appointment-service">Service</label>
+                        <select id="appointment-service" name="service" required>
+                            <option value="" selected disabled>Please choose</option>
+                            <option value="full-grooming">Full Grooming Package</option>
+                            <option value="spa-treatment">Luxury Spa Treatment</option>
+                            <option value="deShedding-treatment">DeShedding Treatment</option>
+                            <option value="first-groom">Puppy First Groom</option>
+                            <option value="wellness-exam">Comprehensive Wellness Exam</option>
+                            <option value="vaccination-program">Vaccination Program</option>
+                            <option value="dental-care">Dental Care</option>
+                            <option value="surgical-services">Surgical Services</option>
+                            <option value="kindergarten">Puppy Kindergarten (Behavioral Training)</option>
+                            <option value="advanced-obedience">Advanced Obedience (Behavioral Training)</option>
+                            <option value="behavior-modification">Behavior Modification</option>
+                            <option value="dog-training">Service Dog Training</option>
+                            <option value="boarding">Boarding</option>
+                            
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="appointment-pet">Pet Name (if known)</label>
+                    <input type="text" id="appointment-pet">
+                </div>
+                <div class="form-submit">
+                    <button type="submit" class="btn">Schedule Appointment</button>
+                    <p class="disclaimer">We'll confirm your appointment via email within 120 Minutes</p>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="logo">
+                        <i class="fas fa-paw"></i>
+                        <h3>Pawfect Pals</h3>
+                    </div>
+                    <p>Committed to creating perfect matches between pets and loving families since 2010.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="index.html#pets">Pets Available</a></li>
+                        <li><a href="index.html#food">Pet Food</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="index.html#staff">Our Staff</a></li>
+                        <li><a href="index.html#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Pawfect Pals. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <div class="chatbot-container">
+        <div class="chatbot-header">
+          <h3>Pawfect Pals Assistant</h3>
+          <button class="close-chat">&times;</button>
+        </div>
+        <div class="chat-messages"></div>
+        <div class="chat-input">
+          <input type="text" placeholder="Ask about adoption, services, or pets...">
+          <button class="send-btn"><i class="fas fa-paper-plane"></i></button>
+        </div>
+      </div>
+      <button class="chatbot-toggle">
+        <i class="fas fa-comments"></i>
+      </button>
+    <div id="login-container"></div>
+    <script src="app.js"></script>
+    <script src="chatbot.js"></script>
+</body>
+</html>
